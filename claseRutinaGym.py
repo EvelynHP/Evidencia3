@@ -24,8 +24,16 @@ class RutinaGym:
         return self.__calorias
 
     def set_calorias(self,nuevas_calorias):
-        self.__calorias = nuevas_calorias   
+        self.__calorias = nuevas_calorias
+
+
+    def get_ejercicios(self):
+        return self.__ejercicios
+    
+    def set_ejercicios(self,nuevos_ejercicios):
+        self.__ejercicios = nuevos_ejercicios
         
+
 
 
         
