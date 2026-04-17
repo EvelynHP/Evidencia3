@@ -32,7 +32,13 @@ class RutinaGym:
     
     def set_ejercicios(self,nuevos_ejercicios):
         self.__ejercicios = nuevos_ejercicios
-        
+
+
+    def get_nivel(self):
+        return self.__nivel
+    
+    def set_nivel(self,nuevo_nivel):
+        self.__nivel = nuevo_nivel
 
 
 
