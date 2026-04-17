@@ -47,6 +47,11 @@ class RutinaGym:
 
     def calcular_calorias(self):
         return self.__duracion * self.__calorias  
+    
+
+    def mostar_info(self):
+        print(f"Nombre: {self.__nombre} Duracion: {self.__duracion} Calorias: {self.__calorias} Ejercicios: {self.__ejercicios} Nivel: {self.__nivel}")
+    
 
     
 
