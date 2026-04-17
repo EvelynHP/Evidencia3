@@ -42,6 +42,15 @@ class RutinaGym:
 
 
 
+    def agregar_ejercicio(self,ejercicio):
+        self.__ejercicios.append(ejercicio) 
+
+    
+
+
+
+
+
         
 
 
