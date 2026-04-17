@@ -20,6 +20,13 @@ class RutinaGym:
         self.__duracion = nueva_duracion
 
 
+    def get_calorias(self):
+        return self.__calorias
+
+    def set_calorias(self,nuevas_calorias):
+        self.__calorias = nuevas_calorias   
+        
+
 
         
 
