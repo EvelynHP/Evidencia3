@@ -6,5 +6,12 @@ class RutinaGym:
         self.__ejercicios = ejercicios 
         self.__nivel = nivel 
 
+    def get_nombre (self):
+        return self.__nombre
+    
+    def set_nombre(self,nuevo_nombre):
+        self.__nombre = nuevo_nombre
         
+
+
 
