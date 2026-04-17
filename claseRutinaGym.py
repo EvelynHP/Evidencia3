@@ -45,6 +45,9 @@ class RutinaGym:
     def agregar_ejercicio(self,ejercicio):
         self.__ejercicios.append(ejercicio) 
 
+    def calcular_calorias(self):
+        return self.__duracion * self.__calorias  
+
     
 
 
