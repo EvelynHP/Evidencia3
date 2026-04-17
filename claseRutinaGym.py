@@ -51,6 +51,14 @@ class RutinaGym:
 
     def mostar_info(self):
         print(f"Nombre: {self.__nombre} Duracion: {self.__duracion} Calorias: {self.__calorias} Ejercicios: {self.__ejercicios} Nivel: {self.__nivel}")
+
+
+rutina1 = RutinaGym("Pierna", 50, 250, ["Sentadilla","Prensa","Extensiones",], "Intermedio" )
+
+
+
+
+
     
 
     
